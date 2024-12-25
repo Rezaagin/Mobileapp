@@ -1,0 +1,76 @@
+<!-- res/layout/activity_profile.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <!-- Icon Profile -->
+
+    <!-- Text Profile -->
+
+<!--    <ImageView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:id="@+id/profileIcon"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:contentDescription="Profile Icon"-->
+<!--        android:src="@drawable/blueprof" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/Idguru"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Asep"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:layout_marginTop="10dp" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/Namaguru"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="27645463"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        tools:ignore="InvalidId" />-->
+
+
+<!--    &lt;!&ndash; Tombol Scan &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/scanButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="375dp"-->
+<!--        android:padding="10dp"-->
+<!--        android:backgroundTint="#50F407"-->
+<!--        android:textColor="#000000"-->
+<!--        android:text="SCAN" />-->
+
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="16dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+</LinearLayout>
