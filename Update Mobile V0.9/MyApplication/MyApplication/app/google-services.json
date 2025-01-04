@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "790724335182",
+    "project_id": "sdmuhammadiyah-d3ddc",
+    "storage_bucket": "sdmuhammadiyah-d3ddc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790724335182:android:65750f680b536e71bbd51f",
+        "android_client_info": {
+          "package_name": "com.dev.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCposvYG4EPNrGQuXxMiPesv3nLUhtaHQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

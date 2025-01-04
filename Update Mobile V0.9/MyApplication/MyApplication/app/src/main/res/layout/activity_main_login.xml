@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <!-- Logo Sekolah -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/m2png"
+        android:contentDescription="@string/logo_description" />
+
+    <!-- Username Field -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="100dp"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/username_hint"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:imeOptions="actionNext" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/password_hint"
+       android:paddingHorizontal="100dp"
+        android:textColor="#000"
+        android:textColorHint="#888"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="114dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#95F86F"
+        android:text="@string/login_button_text"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+</RelativeLayout>
